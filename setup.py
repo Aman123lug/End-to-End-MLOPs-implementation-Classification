@@ -20,8 +20,11 @@ setuptools.setup(
     author_email=AUTHER_EMAIL,
     description="Solved Classification promlem using CNN",
     long_description=long_description,
-    clone_url = f"https://github.com/{AUTHER_NAME}/{REPO_NAME}",
+    download_url = f"https://github.com/{AUTHER_NAME}/{REPO_NAME}",
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
     
 )
+
+AUTHER_NAME = "aman"
+print(AUTHER_NAME)
