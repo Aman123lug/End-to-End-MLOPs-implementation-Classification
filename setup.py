@@ -6,25 +6,25 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
     
     
-AUTHER_NAME = "Aman123lug"
+__version__ = "0.0.0"
+    
+AUTHOR_NAME = "Aman123lug"
 SOCIAL_MEDIA = "lug__aman"
 AUTHER_EMAIL = "ak06465676@gmail.com"
-PROJECT_NAME = "CnnClassifier"
+SRC_REPO = "cnnClassifier"
 REPO_NAME = "End-to-End-Chicken-Disease-implementation"
 
 
 setuptools.setup(
-    name=REPO_NAME,
-    version="0.0.0",
-    author=AUTHER_NAME,
+    name=SRC_REPO,
+    version=__version__,
+    author=AUTHOR_NAME,
     author_email=AUTHER_EMAIL,
     description="Solved Classification promlem using CNN",
     long_description=long_description,
-    download_url = f"https://github.com/{AUTHER_NAME}/{REPO_NAME}",
+    download_url = f"https://github.com/{AUTHOR_NAME}/{REPO_NAME}",
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
     
 )
 
-AUTHER_NAME = "aman"
-print(AUTHER_NAME)
