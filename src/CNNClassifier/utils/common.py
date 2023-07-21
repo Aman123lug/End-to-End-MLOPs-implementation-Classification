@@ -52,8 +52,6 @@ def load_json(json_file: str) -> ConfigBox:
         
     logger.info("json file loaded !")
     return ConfigBox(content)
-
-        
         
         
 @ensure_annotations
@@ -62,7 +60,7 @@ def create_directories(file_lists: list, verbose=True):
         
         os.makedirs(path, exist_ok=True)
         if verbose:
-            logger.info("Directory created !")
+            logger.info(f"Directory created ! {path}")
         
         
 @ensure_annotations
