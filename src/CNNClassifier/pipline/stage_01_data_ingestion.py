@@ -1,4 +1,3 @@
-from src.cnnClassifier.entity.config_entity import DataIngestionConfig
 from src.cnnClassifier.config.configration import ConfigurationManager
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 from src.cnnClassifier import logger
