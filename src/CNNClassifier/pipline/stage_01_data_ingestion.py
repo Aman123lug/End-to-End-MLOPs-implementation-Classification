@@ -1,14 +1,13 @@
-from cnnClassifier.entity.config_entity import DataIngestionConfig
-from cnnClassifier.config.configration import ConfigurationManager
-from cnnClassifier.components.data_ingestion import DataIngestion
-from cnnClassifier import logger
+from src.cnnClassifier.entity.config_entity import DataIngestionConfig
+from src.cnnClassifier.config.configration import ConfigurationManager
+from src.cnnClassifier.components.data_ingestion import DataIngestion
+from src.cnnClassifier import logger
 
 STAGE_NAME  = "Data Ingestion Stage"
 
 class DataIngestionTrainingPipeline:
     def __init__(self) -> None:
         pass
-    
     def main(self):
 
         config = ConfigurationManager()
