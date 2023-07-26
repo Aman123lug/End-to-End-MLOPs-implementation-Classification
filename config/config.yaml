@@ -1,7 +1,7 @@
 artifacts_root: artifacts
 
 data_ingestion:
-    root_dir: artifacts/data_ingestion
+    root_dir: data
     source_URL: https://github.com/Aman123lug/Data-storage-for-all-projects/raw/main/Chicken-fecal-images.zip
     local_data_file: artifacts/data_ingestion/data.zip
     unzip_dir: artifacts/data_ingestion
@@ -18,3 +18,8 @@ prepare_callbacks:
     root_dir: artifacts/prepare_callbacks
     tensorboard_root_log_dir: artifacts/prepare_callbacks/tensorboard_root_log_dir
     checkpoint_model_filepath: artifacts/prepare_callbacks/checkpoint_root_log_dir/model.h5
+
+
+training: 
+    root_dir: artifacts/training
+    train_model_path: artifacts/training/model.h5
