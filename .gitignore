@@ -127,10 +127,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+ml-environment
 
 # Spyder project settings
 .spyderproject
 .spyproject
+artifacts
 
 # Rope project settings
 .ropeproject
