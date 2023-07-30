@@ -29,3 +29,22 @@ class PrepareCallbacksConfig:
     root_dir: Path
     tensorboard_root_log_dir: Path
     checkpoint_model_filepath: Path
+    
+    
+    
+    
+@dataclass
+class TrainingConfig:
+   
+   root_dir: Path
+   train_model_path: Path
+   updated_model_base_path: Path
+   training_data: Path
+   params_epochs: int
+   params_batch_size: int
+   params_is_augmentation: bool
+   param_image_size: list   
+
+
+
+   
