@@ -1,6 +1,6 @@
 # End-to-End-Chicken-Disease-implementation
 
-<img src="MLops project Chicken-.png">
+<img src="project-image.png">
 
 
 
