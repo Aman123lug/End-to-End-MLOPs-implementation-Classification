@@ -47,4 +47,11 @@ class TrainingConfig:
 
 
 
-   
+@dataclass(frozen=True)
+class ModelEvaluationConfig:
+    path_of_model: Path
+    training_data: Path
+    all_params: dict
+    params_image_size: list
+    params_batch_size: int
+    
