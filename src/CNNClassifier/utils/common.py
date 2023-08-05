@@ -9,7 +9,7 @@ import joblib
 from box import ConfigBox
 from typing import Any
 import base64
-from src.cnnClassifier import logger
+from src.cnnClassifier.loggerr import logger
 
 
 

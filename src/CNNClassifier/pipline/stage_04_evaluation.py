@@ -1,7 +1,7 @@
-from src.cnnClassifier.entity.config_entity import ModelEvaluationConfig
-from src.cnnClassifier.config.configration import ConfigurationManager
-from src.cnnClassifier.components.model_evaluation import Evaluation
-from src.cnnClassifier import logger
+from ..entity.config_entity import ModelEvaluationConfig
+from ..config.configration import ConfigurationManager
+from ..components.model_evaluation import Evaluation
+from ..loggerr import logger
 
 STAGE_NAME = "Model Evaluation"
 

@@ -1,5 +1,5 @@
 import tensorflow as tf
-from src.cnnClassifier.entity.config_entity import TrainingConfig
+from ..entity.config_entity import TrainingConfig
 from pathlib import Path
 
 class Training:

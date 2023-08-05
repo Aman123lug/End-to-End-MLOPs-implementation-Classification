@@ -1,7 +1,7 @@
 import time
 import tensorflow as tf
-from src.cnnClassifier import logger
-from cnnClassifier.entity.config_entity import PrepareCallbacksConfig
+from ..loggerr import logger
+from ..entity.config_entity import PrepareCallbacksConfig
 import os
 
 

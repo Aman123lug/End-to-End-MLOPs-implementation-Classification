@@ -1,10 +1,12 @@
 import os
 import urllib.request as request
 import zipfile
-from src.cnnClassifier import logger
-from src.cnnClassifier.utils.common import get_size
+from ..loggerr import logger
+from ..utils.common import get_size
 from pathlib import Path
-from src.cnnClassifier.entity.config_entity import DataIngestionConfig
+from ..entity.config_entity import DataIngestionConfig
+import sys
+from os.path import dirname, abspath
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig) -> None:
@@ -38,6 +40,4 @@ class DataIngestion:
             logger.info("zipfile extracted successfully")
               
               
-              
-              
-              
+

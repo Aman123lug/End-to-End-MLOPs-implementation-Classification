@@ -1,7 +1,7 @@
 import tensorflow as tf
-from src.cnnClassifier.entity.config_entity import ModelEvaluationConfig
+from ..entity.config_entity import ModelEvaluationConfig
 from pathlib import Path
-from cnnClassifier.utils.common import save_json
+from ..utils.common import save_json
 
 
 model = tf.keras.models.load_model("artifacts/training/model.h5")

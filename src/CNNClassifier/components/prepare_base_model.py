@@ -1,10 +1,7 @@
 
-from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
+from ..entity.config_entity import PrepareBaseModelConfig
 import tensorflow as tf
-from pathlib import Path
-            
-        
-            
+from pathlib import Path      
             
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig) -> None:
