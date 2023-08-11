@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+ml-environment/
+artifacts/
 # C extensions
 *.so
 
@@ -127,7 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-ml-environment
+# ml-environment
 
 # Spyder project settings
 .spyderproject
